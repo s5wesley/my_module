@@ -1,0 +1,11 @@
+aws_region            = "us-east-1"
+ec2_instance_ami      = "ami-0c7217cdde317cfec"
+ec2_instance_type     = "t2.micro"
+ec2_instance_key_name = "ansible-key"
+security_group_ids    = ["sg-0d04cb9e5e9498eae"]
+subnet_id             = "subnet-039837a934caf965c"
+root_volume_size      = 10
+bucket_suffix_length  = 8
+bucket_suffix_special = false
+bucket_suffix_upper   = false
+bucket_suffix_number  = false
